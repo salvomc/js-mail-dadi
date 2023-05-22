@@ -7,14 +7,14 @@ for(let i=0; i<listaMail.length; i++)
     {
         if(listaMail[i].toLowerCase() === mail.toLowerCase())
             {
-            flag = true;
+                flag = true;
             }
     }
 
 if(flag === true)
     {
-    console.log('Email trovata');
+        document.getElementById('mail').innerHTML = ("Email trovata");
     }
     else{
-        console.log('Email non trovata');
+            document.getElementById('mail').innerHTML = ("Email non trovata");
         }
